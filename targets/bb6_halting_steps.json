@@ -1,6 +1,6 @@
 {
   "target": "bb6_halting_steps",
-  "machine": "1RB1LB_1LA0LC_1RZ1LD_1RD0RA_0RA0RA_0RA0RA",
-  "claimed_steps": 107,
-  "claimed_ones": 13
+  "machine": "1RB1LB_1LA0LC_1RE1LD_1RD0RA_0LE1RF_1RF1RZ",
+  "claimed_steps": 111,
+  "claimed_ones": 14
 }
