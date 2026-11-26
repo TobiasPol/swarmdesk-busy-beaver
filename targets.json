@@ -1,0 +1,78 @@
+{
+  "problem": "busy-beaver",
+  "max_bytes": 131072,
+  "targets": [
+    {
+      "name": "bb6_antihydra",
+      "title": "Antihydra (BB6 Cryptid)",
+      "summary": "Famous BB(6) Collatz-like cryptid discovered by mxdys (2024). Submit an exact halting step witness or verified non-halting recurrence proof.",
+      "file_path": "targets/bb6_antihydra.json",
+      "machine": "1RB1RA_0LC1LE_1LD1LC_1LA0LB_1LF1RE_---0RA",
+      "kind": "conjecture",
+      "domain": "Computability & Busy Beaver",
+      "source_url": "https://wiki.bbchallenge.org/wiki/Antihydra",
+      "approach": "Submit a verified halting step certificate (resolution=proved) or exact inductive recurrence certificate (resolution=disproved)."
+    },
+    {
+      "name": "bb6_kropitz_champ",
+      "title": "Kropitz BB(6) Tetrational Machine",
+      "summary": "Pavel Kropitz's hyper-exponential 6-state 2-symbol machine exceeding 10^^15 steps. Open for inductive non-halting refutation or halting witness.",
+      "file_path": "targets/bb6_kropitz_champ.json",
+      "machine": "1RB0LD_1RC0RF_1LC1LA_0LE1RZ_1LF0RB_0RC0RE",
+      "kind": "conjecture",
+      "domain": "Computability & Busy Beaver",
+      "source_url": "https://wiki.bbchallenge.org/wiki/BB(6)",
+      "approach": "Submit a verified halting step certificate (resolution=proved) or exact inductive recurrence certificate (resolution=disproved)."
+    },
+    {
+      "name": "bb6_marxen_buntrock_ext",
+      "title": "BB(6) Counter Cryptid (Holdout C)",
+      "summary": "Long-running 6-state 2-symbol Turing machine exhibiting complex exponential counter dynamics from a blank tape.",
+      "file_path": "targets/bb6_marxen_buntrock_ext.json",
+      "machine": "1RB0LC_1RC0RB_1RD0LE_1LA1LD_1RZ0LA_1LE1RF",
+      "kind": "conjecture",
+      "domain": "Computability & Busy Beaver",
+      "source_url": "https://wiki.bbchallenge.org/wiki/BB(6)",
+      "approach": "Submit a verified halting step certificate (resolution=proved) or exact inductive recurrence certificate (resolution=disproved)."
+    },
+    {
+      "name": "bb6_kropitz_2010",
+      "title": "Kropitz 2010 BB(6) Holdout (Holdout D)",
+      "summary": "Pavel Kropitz's 2010 6-state 2-symbol exponential runner. Verify halting or submit an exact inductive non-halting recurrence certificate.",
+      "file_path": "targets/bb6_kropitz_2010.json",
+      "machine": "1RB1LE_1LC1RF_1LD0LB_1RA0LC_1LA0RD_1RZ1RC",
+      "kind": "conjecture",
+      "domain": "Computability & Busy Beaver",
+      "source_url": "https://wiki.bbchallenge.org/wiki/BB(6)",
+      "approach": "Submit a verified halting step certificate (resolution=proved) or exact inductive recurrence certificate (resolution=disproved)."
+    },
+    {
+      "name": "bb6_halting_steps",
+      "title": "BB(6) Direct-Replay Halting Champion",
+      "summary": "Find a 6-state 2-symbol Turing machine that halts from a blank tape after strictly more steps (verified by exact replay up to 25M steps).",
+      "file_path": "targets/bb6_halting_steps.json",
+      "kind": "bound",
+      "direction": "maximize",
+      "baseline_value": 107,
+      "sota_value": 25000000,
+      "metric_unit": "steps",
+      "domain": "Busy Beaver bounds",
+      "source_url": "https://wiki.bbchallenge.org/wiki/BB(6)",
+      "approach": "Submit any valid 6-state 2-symbol 1RB machine halting in strictly more steps than the current holder (up to 25,000,000 CI replay cap)."
+    },
+    {
+      "name": "bb6_ones_written",
+      "title": "Sigma(6) Direct-Replay Ones Champion",
+      "summary": "Find a 6-state 2-symbol halting Turing machine leaving strictly more 1s on the tape at halt (verified by exact replay up to 25M steps).",
+      "file_path": "targets/bb6_ones_written.json",
+      "kind": "bound",
+      "direction": "maximize",
+      "baseline_value": 13,
+      "sota_value": 50000,
+      "metric_unit": "ones",
+      "domain": "Busy Beaver bounds",
+      "source_url": "https://wiki.bbchallenge.org/wiki/BB(6)",
+      "approach": "Submit any valid 6-state 2-symbol 1RB halting machine leaving strictly more 1s on the tape than the current holder."
+    }
+  ]
+}
